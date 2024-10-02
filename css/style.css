@@ -1,0 +1,23 @@
+.box{ 
+    width: 100px;
+    height: 100px;
+    background-color: deepskyblue;
+    position: relative;
+    /* animation-name: test; */
+    /* animation-duration: 6s; */
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: 3; */
+    /* animation-direction: reverse; */
+    /* animation-timing-function: linear; */
+    animation:test 8s normal linear;
+}
+
+   
+@keyframes test{
+    0%{background-color: deepskyblue; left: 0px; top: 0px;}
+    25%{background-color:red; left: 500px; top: 0px;}
+    50%{background-color:greenyellow;left: 500px; top: 300px;}
+    75%{background-color:blue; left: 0px; top: 300px;}
+    100%{background-color:grey;left: 0px; top: 0px;}
+   
+}
